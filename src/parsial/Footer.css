@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'fade';
+    src: url("../../public/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+.footer-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 170.42px;
+    width: 100%;
+    height: 499px;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 131px;
+    margin-top: -500px;
+
+}
+
+.footer-up p {
+    color: white;
+    width: 551px;
+    height: 94px;
+    font-family: 'font', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 43px;
+    padding-top: 43px;
+    padding-left: 63px;
+    padding-right: 212px;
+}
+
+.footer-input input {
+    border: none;
+    background-color: none;
+    padding-left: 15px;
+}
+
+.footer-input {
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: center;
+    width: 349px;
+    height: 48px;
+    border-radius: 62px;
+}
+
+.footer-up-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    padding-right: 64px;
+}
+
+.footer-up-button button {
+    width: 349px;
+    height: 46px;
+    border-radius: 62px;
+}
+
+.footer-down {
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1200px;
+    height: 157px;
+    margin-left: 141px;
+}
+
+.footer-1 {
+    width: 248px;
+    height: 157px;
+    gap: 35px;
+}
+
+.footer-shop {
+    font-family: 'font', sans-serif;
+    font-weight: 400;
+    font-size: 33.45px;
+    font-style: bold;
+}
+
+.footer-p {
+    width: 248px;
+    height: 66px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'fade',sans-serif;
+}
+
+.footer-button {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: left; */
+    /* flex-direction: column; */
+
+    width: 148px;
+    height: 28px;
+    gap: 10px;
+}
+
+.footer-button button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    width: 28px;
+    height: 28px;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 104px;
+    height: 157px;
+    gap: 26px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 136px;
+    height: 157px;
+    gap: 26px;
+}
+
+.footer-4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 149px;
+    height: 157px;
+    gap: 26px;
+}
+
+.footer-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 149px;
+    height: 157px;
+    gap: 26px;
+}
+.footer-first{
+    font-family: 'myfont',sans-serif;
+    /* font-weight: 100; */
+    font-size: 16px;
+}
+.footer-fade{
+    font-family: 'fade',sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer-create{
+    /* margin-left: 141px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 130px;
+}
+.footer-down1{
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 25px; */
+    margin-left: 141px;
+}
+.footer-down2{
+    margin-top: 10px;
+}
+.footer-down3{
+    margin-top: 10px;
+}
+.active{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}

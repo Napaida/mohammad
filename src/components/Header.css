@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+     background-color: #000;
+   color: #fff;
+    padding: 12px 30px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 9px;
+    flex: auto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.first a{
+    color: #fff;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    background: none;       
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1388px;
+}
+.navbar{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 8px;
+}
+.bold{
+   
+    font-weight: bold;
+    font-size: 32px;
+    left: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 5px;
+    padding: 8px 12px;
+    margin-left: 100px;
+    gap: 24px;
+}
+.header p{
+    padding: 8px 12px;
+    font-weight: 400;
+}
+.input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    width: 570px;
+    height: 45px;
+    border-radius: 62px;
+    gap: 10px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+.input input{
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.basket{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 14px;
+}
+.all{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-top: 24px;
+    /* top: 134px; */
+        background: #833471 url("../../public/image/Rectangle2.png") no-repeat left top / cover;
+}
+.type{
+    display: flex;
+    justify-content:flex-start;
+    align-items:left;
+    /* position: relative; */
+    flex-direction: column;
+    gap: 10px;
+    top: 103px;
+    left: 100px;
+    /* width: 100%; */
+    /* height: 634px; */
+    /* top: 134px; */
+    /* background-color: #F2F0F1; */
+}
+.type h1{
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: left;
+    display: flex;
+    font-weight: 700;
+    font-size: 64px;
+    /* font-style: bold; */
+    top: 103px;
+    left: 100px;
+    right: 763px;
+    bottom: 387px;
+    /* vertical-align:middle; */
+    /* line-height: 64px; */
+    font-family: 'font',sans-serif;
+    
+}
+.type p{
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 22px;
+    
+}
+.type-p{
+    margin-top: 18px;
+    width: 545px;
+}
+.type button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    /* width: 210px; */
+    height: 52px;
+    border-radius: 62px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    /* font-style: medium; */
+    margin-top: 32px;
+    padding-top: 15px;
+    margin-right: 340px;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    position:relative;
+    flex-direction: column;
+    width: 200px;
+    height: 52px;
+}
+.image-big{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 86px;
+    left: 1255px;
+    right: 81px;
+    bottom: 473px;
+}
+.image-small{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 297px;
+    left: 750px;
+    right: 634px;
+    bottom: 310px;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+.number-2{
+   border-left: 1px solid rgba(0, 0, 0, 0.1);
+   border-right: 1px solid rgba(0, 0, 0, 0.1);
+   padding-left: 32px;
+   padding-right: 32px;
+    
+}
+.number-1{
+    padding-right: 32px;
+}
+.number-3{
+    padding-left: 32px;
+}
+.number h2{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+}
+.number p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.logo{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35.84px;
+    width: 87%;
+    padding-left: 100px;
+    padding-right: 101.73px;
+}
+.select{
+    border: none;
+}
+.h1{
+    margin-right: 50px;
+}
+.h2{
+    margin-right: 11px;
+}
+.h3{
+    margin-right: 110px;
+}

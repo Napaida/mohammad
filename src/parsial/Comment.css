@@ -1,0 +1,99 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 148px;
+    margin-right: 148px;
+}
+
+.head p {
+    font-family: 'myfont', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.button3 button{
+    border: none;
+}
+
+.map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* width: 2300px; */
+    gap: 50px;
+     right: -555px;
+    left: -344px;
+}
+
+
+.border1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.to {
+    justify-content: space-between;
+    width: 336px;
+    height: 161px;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 50px;
+    
+}
+
+.img1 {
+    width: 138px;
+    height: 22px;
+    margin-top: 22px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    font-family: 'myfont', sans-serif;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.img3 {
+    width: 19.5px;
+    height: 19.5px;
+    top: 2.25px;
+}
+
+.matn {
+    width: 336px;
+    height: 88px;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 12px;
+}
+/* .map div:last-child{
+    filter: blur(3px);
+} */
+ .map .border1:last-child{
+    filter: blur(3px);
+ }
+ .map .border1:first-child{
+    filter: blur(3px);
+ }
