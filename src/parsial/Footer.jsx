@@ -2,7 +2,7 @@ import { useState } from "react"
 import Icon from "../../public/Icon.jsx/Icon"
 import "../parsial/Footer.css"
 function Footer() {
-    const [active, setActive] = useState(false)
+    const [active, setActive] = useState('b')
  
 
    

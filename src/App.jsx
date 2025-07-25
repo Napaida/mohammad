@@ -1,18 +1,20 @@
+import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Header from './components/Header'
-import First from './parsial/Main'
 import './App.css'
-import Comment from './parsial/Comment'
-import Footer from './parsial/Footer'
+import Detail from "./components/ProductDetail"
+import Detail2 from "./components/ProductDetail2"
+
 
 function App() {
 
   return (
-    <>
-<Header/>
-<First/>
-<Comment/>
-<Footer/>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route index element={<Header/>}/>
+      <Route path="/product/:id" element={<Detail/>}/>
+      <Route path="/servic/:id" element={<Detail2/>}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -5,8 +5,9 @@
     position: relative;
     margin-top: 80px;
     margin-bottom: 40px;
-    margin-left: 148px;
-    margin-right: 148px;
+    margin-left: 212px;
+    margin-right: 240px;
+    
 }
 
 .head p {
@@ -24,16 +25,19 @@
     border: none;
 }
 
-.map {
+/* .map {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    /* width: 2300px; */
-    gap: 50px;
-     right: -555px;
-    left: -344px;
-}
+    transition: 0.5s ease;
+    overflow: hidden;
+    padding: 0 40px;
+    width: 100%;
+    gap: 10px;
+     /* right: -155px;
+    left: -344px; */
+/*} */
 
 
 .border1 {
@@ -47,21 +51,44 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.to {
-    justify-content: space-between;
-    width: 336px;
+/* .to {
+    /* justify-content: space-between; */
+   /* width: 336px;
     height: 161px;
     margin-top: 28px;
     margin-left: 28px;
     margin-right: 28px;
     margin-bottom: 50px;
     
-}
-
+} */
+ .to{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 400px;
+    height: 300px;
+    gap: 500px;
+    flex-direction: column;
+ }
+ .to2o{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 240px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 28px; */
+    padding-left: 32px;
+    padding-right: 32px;
+ }
 .img1 {
     width: 138px;
     height: 22px;
-    margin-top: 22px;
+    margin-top: -22px;
 }
 
 .name {
@@ -88,12 +115,27 @@
     color: rgba(0, 0, 0, 0.6);
     margin-top: 12px;
 }
-/* .map div:last-child{
-    filter: blur(3px);
+
+
+/* .swiper-slide:last-child{
+    filter: blur(2px);
+}
+.swiper-slide:first-child{
+    filter: blur(2px);
 } */
- .map .border1:last-child{
-    filter: blur(3px);
+ /* .swiper-slide-next:last-child{
+    filter: blur(2px);
+    transition: 0.5 ease;
+ } */
+ .swiper-slide-prev{
+    filter: blur(2px);
  }
- .map .border1:first-child{
-    filter: blur(3px);
+ /* .swiper-slide-next{
+    filter: blur(2px);
+ } */
+ .swiper-slide:last-child{
+    filter: blur(2px);
  }
+.swiper-slide:first-child{
+    filter: blur(2px);
+}

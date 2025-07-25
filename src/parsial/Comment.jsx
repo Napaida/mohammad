@@ -1,6 +1,8 @@
-import { useState } from "react"
+import { Swiper , SwiperSlide} from "swiper/react"
+import {Navigation}from "swiper/modules"
 import Icon from "../../public/Icon.jsx/Icon"
 import '../parsial/Comment.css'
+import "swiper/css"
 const CommentShow = [
     { id: 1, star: '../../public/image/star10.png', name: 'Ramin H.', icon: '../../public/image/tik.png', title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat culpa ullam voluptate excepturi vel dolores architecto, iste sit cupiditate inventore unde optio odit omnis molestias aliquid recusandae veritatis ex!' },
     { id: 2, star: '../../public/image/star10.png', name: 'Sarah M.', icon: '../../public/image/tik.png', title: 'Im blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I ve bought has exceeded my expectations' },
@@ -10,36 +12,53 @@ const CommentShow = [
 ]
 
 function Comment() {
-  const [slide , setSlide] = useState(null)
-    // function LeftHandle(){
-    //     setSlide((item)=>{
-    //         item === item.length -1 ? 0 : item.length +1
-    //     })
-    // }
-
+ 
     return (
         <>
+
             <div className="head">
                 <p>OUR HAPPY CUSTOMERS</p>
                 <div className="button3">
-                    <button onClick={()=>setSlide()}><Icon action={'left'} /></button>
-                    <button><Icon action={'right'} /></button>
+                    <button className="costomr"><Icon action={'left'} /></button>
+                    <button className="costoml"><Icon action={'right'} /></button>
                 </div>
             </div>
-            <div className="map">
-                {CommentShow.map((item) => (
+        <div style={{position:'relative',padding:'0px 0px'}}>
+            <Swiper 
+            modules={[Navigation]}
+            slidesPerView={4.5}
+            spaceBetween={300}
+            navigation={{
+                nextEl:'.costomr',
+                prevEl:'.costoml'
+            }}
+            loop={true}
+            centeredSlides={false}
+            onInit={(Swiper)=>{
+                Swiper.params.navigation.prevEl = "costomr".current;
+                Swiper.params.navigation.nextEl = "costoml".current;
+                Swiper.navigation.init();
+                Swiper.navigation.update()
+            }}
+            style={{overflow:'visible',padding:'40px 0',transition:'2s ease'}}
+            >
+                {CommentShow.map((item,index) => (
                     <>
-                        <div className="border1">
+                        <SwiperSlide key={index}>
                             <div className="to">
+                                <div className="to2o">
+
                                 <img src={item.star} alt="" className="img1" />
                                 <p className="name">{item.name}<img src={item.icon} alt="" className="img3" /></p>
                                 <p className="matn">{item.title}</p>
+                                </div>
                             </div>
-                        </div>
+                        </SwiperSlide>
                     </>
-                
+
                 ))}
-            </div>
+            </Swiper>
+</div>
         </>
     )
 }

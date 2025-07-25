@@ -20,6 +20,7 @@
     align-items: center;
     position: relative;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -59,6 +60,7 @@
     /* gap: 20px; */
     /* padding-left: 10px;
     padding-right: 20px; */
+    cursor: pointer;
 }
 
 .img {
@@ -148,20 +150,21 @@
 button {
     font-family: 'myfont', sans-serif;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color:white;
+    background-color: white;
     color: none;
     background-color: white;
-    
+
 }
 
 .button10 {
     margin-top: 40px;
     /* margin-left: 10px; */
     margin-right: 35px;
-    
-    
+
+
 }
-.button10 button{
+
+.button10 button {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 80px;
@@ -170,9 +173,12 @@ button {
     border-radius: 62px;
     background-color: white;
 }
-.button10 button:hover{
+
+.button10 button:hover {
     background-color: black;
     color: white;
+    transition: 1s ease;
+    cursor: pointer;
 }
 
 .border {
@@ -181,7 +187,7 @@ button {
     margin-bottom: 64px;
     width: 80%;
     /* margin-left: 315px; */
-    
+
 }
 
 .up2 {
@@ -208,14 +214,17 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.two2{
+
+.two2 {
     width: 70%;
     display: flex;
     justify-content: flex-start;
     align-items: left;
     flex-direction: column;
+    cursor: pointer;
 }
-.img2{
+
+.img2 {
     display: flex;
     justify-content: flex-start;
     align-items: left;
@@ -224,16 +233,19 @@ button {
     width: 100%;
     border-radius: 20%;
 }
-.img2 img{
+
+.img2 img {
     border-radius: 20px;
 }
-.info2{
+
+.info2 {
     margin-top: 10px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
 }
-.info2 p{
+
+.info2 p {
     margin: 2px 0;
     justify-content: flex-start;
     text-align: left;
@@ -241,32 +253,37 @@ button {
     padding-right: 50px;
     margin-top: 10px;
 }
-.title2{
+
+.title2 {
     font-weight: 100;
     font-size: 15px;
     font-family: 'myfont', sans-serif;
     font-style: bold;
     line-height: 100%;
 }
-.star2{
+
+.star2 {
     gap: 10px;
 }
-.font2{
+
+.font2 {
     font-size: 24px;
     font-weight: 300;
     font-style: bold;
     font-family: 'myfont', sans-serif;
     gap: 5px;
 }
-.button2{
+
+.button2 {
     margin-top: 40px;
     /* margin-left: 270px; */
     margin-right: 35px;
-    
+
 }
-.button2 button{
+
+.button2 button {
     font-family: 'myfont', sans-serif;
-   padding-top: 15px;
+    padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 80px;
     padding-right: 80px;
@@ -274,12 +291,90 @@ button {
     border-radius: 62px;
     background-color: white;
 }
-.back2{
-    width: 100%;
-    margin-left: 280px;
+
+.back2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 880px;
+    /* margin-left: 420px; */
     margin-top: 80px;
+    /* margin-right: 400px; */
+    background-color: rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 40px;
 }
-.button2 button:hover{
+
+.back-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'font', sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 64px;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: all 1s ease;
+}
+.center-image img{
+    transition: all 0.5s ease;
+
+}
+.center-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.center-image-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: 0.3s ease, 0.3s ease;
+
+}
+.center-image-2 img{
+    transition: all 0.5s ease;
+
+}
+.center-image-2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* .image-hover{
+    box-shadow:0 0 20px;
+    cursor: pointer;
+    translate: scale(1.05);
+    
+} */
+.button2 button:hover {
     background-color: black;
     color: white;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.span {
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: -10px;
+}
+.span2{
+     color: rgba(0, 0, 0, 0.4);
+    margin-left: -10px;
+}
+.Link{
+    text-decoration: none;
+    color: black;
 }

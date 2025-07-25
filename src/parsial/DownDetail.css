@@ -1,0 +1,14 @@
+/* .up-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 579px;
+    height: 58px; */
+/* }*/
+.up-2-1 p{
+    font-family: 'font',sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 47px;
+}  

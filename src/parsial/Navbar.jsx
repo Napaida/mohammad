@@ -2,41 +2,11 @@ import { useState } from "react"
 import Icon from "../../public/Icon.jsx/Icon"
 // import Rectangle2 from "../../public/image/Rectangle2.png"
 function Sign() {
-    const [remove, setRemove] = useState(true)
-    function HandleRemove() {
-        setRemove(false)
-    }
+  
 
     return (
         <>
-            {remove && (
-
-                <div className="first">
-                    <span>Sign up and get 20% off to your first order.<a href="">Sign Up Now</a></span>
-                    <button className="icon" onClick={HandleRemove}>
-                        <Icon action={"error"} />
-                    </button>
-
-                </div>
-            )}
-            <div className="navbar">
-                <div className="header">
-                    <h3 className="bold"><Icon action={'shop'} /></h3>
-                    <select name="" id="" className="select">
-                        <option value="">Shop</option>
-                    </select>
-                    <p>On Sale</p>
-                    <p>New Arrivals</p>
-                    <p>Brands</p>
-                    <div className="input">
-                        <Icon action={"search"} /><input type="text" placeholder="Search for products..." />
-                    </div>
-                    <div className="basket">
-                        <Icon action={"basket"} />
-                        <Icon action={"account"} />
-                    </div>
-                </div>
-            </div>
+            
             <div className="all">
 
                 <div className="type">
